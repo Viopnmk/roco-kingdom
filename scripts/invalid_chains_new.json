@@ -1,0 +1,1503 @@
+{
+  "chains": [
+    {
+      "id": "chain_003",
+      "name": "乌达进化链",
+      "members": [
+        384,
+        386,
+        388
+      ],
+      "member_names": [
+        "乌达",
+        "迷你乌",
+        "乌拉塔"
+      ],
+      "member_stats": {
+        "384": 369,
+        "386": 492,
+        "388": 615
+      },
+      "apex_id": 388,
+      "apex_name": "乌拉塔",
+      "conditions": {
+        "进化1": "30",
+        "进化2": "50"
+      }
+    },
+    {
+      "id": "chain_006",
+      "name": "书魔虫进化链",
+      "members": [
+        436,
+        437,
+        438
+      ],
+      "member_names": [
+        "书魔虫",
+        "书卷守护",
+        "古卷执政官"
+      ],
+      "member_stats": {
+        "436": 395,
+        "437": 527,
+        "438": 658
+      },
+      "apex_id": 438,
+      "apex_name": "古卷执政官",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "36"
+      }
+    },
+    {
+      "id": "chain_007",
+      "name": "书魔虫进化链",
+      "members": [
+        436,
+        437,
+        439
+      ],
+      "member_names": [
+        "书魔虫",
+        "书卷守护",
+        "古卷匣魔像"
+      ],
+      "member_stats": {
+        "436": 395,
+        "437": 527,
+        "439": 650
+      },
+      "apex_id": 439,
+      "apex_name": "古卷匣魔像",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "36"
+      }
+    },
+    {
+      "id": "chain_010",
+      "name": "可爱猿进化链",
+      "members": [
+        375,
+        376,
+        377
+      ],
+      "member_names": [
+        "可爱猿",
+        "炽热猿",
+        "火焰猿"
+      ],
+      "member_stats": {
+        "375": 429,
+        "376": 572,
+        "377": 715
+      },
+      "apex_id": 377,
+      "apex_name": "火焰猿",
+      "conditions": {
+        "进化1": "28",
+        "进化2": "40"
+      }
+    },
+    {
+      "id": "chain_011",
+      "name": "可立鸡进化链",
+      "members": [
+        395,
+        396,
+        397
+      ],
+      "member_names": [
+        "可立鸡",
+        "晕晕鸡",
+        "绅士鸡"
+      ],
+      "member_stats": {
+        "395": 396,
+        "396": 530,
+        "397": 661
+      },
+      "apex_id": 397,
+      "apex_name": "绅士鸡",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "36"
+      }
+    },
+    {
+      "id": "chain_012",
+      "name": "可立鸡进化链",
+      "members": [
+        395,
+        396,
+        398
+      ],
+      "member_names": [
+        "可立鸡",
+        "晕晕鸡",
+        "武者鸡"
+      ],
+      "member_stats": {
+        "395": 396,
+        "396": 530,
+        "398": 580
+      },
+      "apex_id": 398,
+      "apex_name": "武者鸡",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "36"
+      }
+    },
+    {
+      "id": "chain_018",
+      "name": "地鼠进化链",
+      "members": [
+        406,
+        408,
+        410
+      ],
+      "member_names": [
+        "地鼠",
+        "遁鼠",
+        "遁地鼠"
+      ],
+      "member_stats": {
+        "406": 337,
+        "408": 450,
+        "410": 562
+      },
+      "apex_id": 410,
+      "apex_name": "遁地鼠",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "36"
+      }
+    },
+    {
+      "id": "chain_025",
+      "name": "小帕尔进化链",
+      "members": [
+        426,
+        427,
+        428
+      ],
+      "member_names": [
+        "小帕尔",
+        "帕尔萨斯",
+        "龙息帕尔"
+      ],
+      "member_stats": {
+        "426": 379,
+        "427": 507,
+        "428": 632
+      },
+      "apex_id": 428,
+      "apex_name": "龙息帕尔",
+      "conditions": {
+        "进化1": "28",
+        "进化2": "40"
+      }
+    },
+    {
+      "id": "chain_033",
+      "name": "布鲁斯进化链",
+      "members": [
+        378,
+        379,
+        380
+      ],
+      "member_names": [
+        "布鲁斯",
+        "雪顶布鲁斯",
+        "冰钻布鲁斯"
+      ],
+      "member_stats": {
+        "378": 295,
+        "379": 394,
+        "380": 493
+      },
+      "apex_id": 380,
+      "apex_name": "冰钻布鲁斯",
+      "conditions": {
+        "进化1": "26",
+        "进化2": "42"
+      }
+    },
+    {
+      "id": "chain_034",
+      "name": "幽星光进化链",
+      "members": [
+        478,
+        479,
+        480
+      ],
+      "member_names": [
+        "幽星光",
+        "曜星光",
+        "暮星辰"
+      ],
+      "member_stats": {
+        "478": 319,
+        "479": 425,
+        "480": 532
+      },
+      "apex_id": 480,
+      "apex_name": "暮星辰",
+      "conditions": {
+        "进化1": "21",
+        "进化2": "38"
+      }
+    },
+    {
+      "id": "chain_036",
+      "name": "星尘虫进化链",
+      "members": [
+        450,
+        451,
+        452
+      ],
+      "member_names": [
+        "星尘虫",
+        "落星虫",
+        "陨星虫"
+      ],
+      "member_stats": {
+        "450": 307,
+        "451": 407,
+        "452": 509
+      },
+      "apex_id": 452,
+      "apex_name": "陨星虫",
+      "conditions": {
+        "进化1": "30",
+        "进化2": "42"
+      }
+    },
+    {
+      "id": "chain_037",
+      "name": "春团进化链",
+      "members": [
+        475,
+        476,
+        477
+      ],
+      "member_names": [
+        "春团",
+        "春兔",
+        "春花兔"
+      ],
+      "member_stats": {
+        "475": 341,
+        "476": 455,
+        "477": 557
+      },
+      "apex_id": 477,
+      "apex_name": "春花兔",
+      "conditions": {
+        "进化1": "21",
+        "进化2": "38"
+      }
+    },
+    {
+      "id": "chain_038",
+      "name": "机械方方进化链",
+      "members": [
+        392,
+        393,
+        394
+      ],
+      "member_names": [
+        "机械方方",
+        "多彩方方",
+        "立方人"
+      ],
+      "member_stats": {
+        "392": 362,
+        "393": 482,
+        "394": 605
+      },
+      "apex_id": 394,
+      "apex_name": "立方人",
+      "conditions": {
+        "进化1": "28",
+        "进化2": "40"
+      }
+    },
+    {
+      "id": "chain_041",
+      "name": "格兰种子进化链",
+      "members": [
+        403,
+        404,
+        405
+      ],
+      "member_names": [
+        "格兰种子",
+        "格兰花",
+        "格兰球"
+      ],
+      "member_stats": {
+        "403": 321,
+        "404": 429,
+        "405": 536
+      },
+      "apex_id": 405,
+      "apex_name": "格兰球",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "32"
+      }
+    },
+    {
+      "id": "chain_045",
+      "name": "治愈兔进化链",
+      "members": [
+        381,
+        382,
+        383
+      ],
+      "member_names": [
+        "治愈兔",
+        "红丝绒",
+        "红绒十字"
+      ],
+      "member_stats": {
+        "381": 358,
+        "382": 479,
+        "383": 598
+      },
+      "apex_id": 383,
+      "apex_name": "红绒十字",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "36"
+      }
+    },
+    {
+      "id": "chain_051",
+      "name": "犀角鸟进化链",
+      "members": [
+        443,
+        444,
+        445
+      ],
+      "member_names": [
+        "犀角鸟",
+        "光纤兽",
+        "疾光千兽"
+      ],
+      "member_stats": {
+        "443": 368,
+        "444": 490,
+        "445": 612
+      },
+      "apex_id": 445,
+      "apex_name": "疾光千兽",
+      "conditions": {
+        "进化1": "27",
+        "进化2": "47"
+      }
+    },
+    {
+      "id": "chain_055",
+      "name": "画精灵进化链",
+      "members": [
+        432,
+        433,
+        434
+      ],
+      "member_names": [
+        "画精灵",
+        "画像守护",
+        "画间法师手"
+      ],
+      "member_stats": {
+        "432": 371,
+        "433": 494,
+        "434": 619
+      },
+      "apex_id": 434,
+      "apex_name": "画间法师手",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "36"
+      }
+    },
+    {
+      "id": "chain_056",
+      "name": "画精灵进化链",
+      "members": [
+        432,
+        433,
+        435
+      ],
+      "member_names": [
+        "画精灵",
+        "画像守护",
+        "画间沉铁兽"
+      ],
+      "member_stats": {
+        "432": 371,
+        "433": 494,
+        "435": 608
+      },
+      "apex_id": 435,
+      "apex_name": "画间沉铁兽",
+      "conditions": {
+        "进化1": "16",
+        "进化2": "36"
+      }
+    },
+    {
+      "id": "chain_059",
+      "name": "空空颅进化链",
+      "members": [
+        460,
+        461,
+        462
+      ],
+      "member_names": [
+        "空空颅",
+        "夜宿颅",
+        "夜枭"
+      ],
+      "member_stats": {
+        "460": 280,
+        "461": 373,
+        "462": 464
+      },
+      "apex_id": 462,
+      "apex_name": "夜枭",
+      "conditions": {
+        "进化1": "30",
+        "进化2": "50"
+      }
+    },
+    {
+      "id": "chain_060",
+      "name": "绒绒进化链",
+      "members": [
+        440,
+        441,
+        442
+      ],
+      "member_names": [
+        "绒绒",
+        "小绒茧",
+        "绒仙子"
+      ],
+      "member_stats": {
+        "440": 342,
+        "441": 454,
+        "442": 569
+      },
+      "apex_id": 442,
+      "apex_name": "绒仙子",
+      "conditions": {
+        "进化1": "27",
+        "进化2": "47"
+      }
+    },
+    {
+      "id": "chain_067",
+      "name": "贝瑟进化链",
+      "members": [
+        465,
+        466,
+        467
+      ],
+      "member_names": [
+        "贝瑟",
+        "贝加尔",
+        "贝古斯"
+      ],
+      "member_stats": {
+        "465": 385,
+        "466": 512,
+        "467": 641
+      },
+      "apex_id": 467,
+      "apex_name": "贝古斯",
+      "conditions": {
+        "进化1": "28",
+        "进化2": "38"
+      }
+    },
+    {
+      "id": "chain_080",
+      "name": "优优进化链",
+      "members": [
+        399,
+        400
+      ],
+      "member_names": [
+        "优优",
+        "绒光优优"
+      ],
+      "member_stats": {
+        "399": 485,
+        "400": 605
+      },
+      "apex_id": 400,
+      "apex_name": "绒光优优",
+      "conditions": {
+        "进化1": "36"
+      }
+    },
+    {
+      "id": "chain_082",
+      "name": "厉毒小萝进化链",
+      "members": [
+        424,
+        425
+      ],
+      "member_names": [
+        "厉毒小萝",
+        "厉毒修萝"
+      ],
+      "member_stats": {
+        "424": 396,
+        "425": 495
+      },
+      "apex_id": 425,
+      "apex_name": "厉毒修萝",
+      "conditions": {
+        "进化1": "40"
+      }
+    },
+    {
+      "id": "chain_083",
+      "name": "双灯鱼进化链",
+      "members": [
+        453,
+        454
+      ],
+      "member_names": [
+        "双灯鱼",
+        "利灯鱼"
+      ],
+      "member_stats": {
+        "453": 502,
+        "454": 626
+      },
+      "apex_id": 454,
+      "apex_name": "利灯鱼",
+      "conditions": {
+        "进化1": "30"
+      }
+    },
+    {
+      "id": "chain_086",
+      "name": "吸泥鸥进化链",
+      "members": [
+        420,
+        421
+      ],
+      "member_names": [
+        "吸泥鸥",
+        "泥吼牙"
+      ],
+      "member_stats": {
+        "420": 455,
+        "421": 569
+      },
+      "apex_id": 421,
+      "apex_name": "泥吼牙",
+      "conditions": {
+        "进化1": "36"
+      }
+    },
+    {
+      "id": "chain_088",
+      "name": "嗜光嗡嗡进化链",
+      "members": [
+        456,
+        457
+      ],
+      "member_names": [
+        "嗜光嗡嗡",
+        "窃光蚊"
+      ],
+      "member_stats": {
+        "456": 473,
+        "457": 592
+      },
+      "apex_id": 457,
+      "apex_name": "窃光蚊",
+      "conditions": {
+        "进化1": "28"
+      }
+    },
+    {
+      "id": "chain_090",
+      "name": "圣剑侍从进化链",
+      "members": [
+        417,
+        418
+      ],
+      "member_names": [
+        "圣剑侍从",
+        "圣剑-X"
+      ],
+      "member_stats": {
+        "417": 696,
+        "418": 868
+      },
+      "apex_id": 418,
+      "apex_name": "圣剑-X",
+      "conditions": {
+        "进化1": "40"
+      }
+    },
+    {
+      "id": "chain_091",
+      "name": "墨鱿士进化链",
+      "members": [
+        412,
+        413
+      ],
+      "member_names": [
+        "墨鱿士",
+        "混乱鱿彩"
+      ],
+      "member_stats": {
+        "412": 461,
+        "413": 576
+      },
+      "apex_id": 413,
+      "apex_name": "混乱鱿彩",
+      "conditions": {
+        "进化1": "32"
+      }
+    },
+    {
+      "id": "chain_092",
+      "name": "墨鱿士进化链",
+      "members": [
+        412,
+        414
+      ],
+      "member_names": [
+        "墨鱿士",
+        "秩序鱿墨"
+      ],
+      "member_stats": {
+        "412": 461,
+        "414": 604
+      },
+      "apex_id": 414,
+      "apex_name": "秩序鱿墨",
+      "conditions": {
+        "进化1": "32"
+      }
+    },
+    {
+      "id": "chain_093",
+      "name": "大头骨龙进化链",
+      "members": [
+        422,
+        423
+      ],
+      "member_names": [
+        "大头骨龙",
+        "寂灭骨龙"
+      ],
+      "member_stats": {
+        "422": 442,
+        "423": 552
+      },
+      "apex_id": 423,
+      "apex_name": "寂灭骨龙",
+      "conditions": {
+        "进化1": "40"
+      }
+    },
+    {
+      "id": "chain_098",
+      "name": "小甲虫进化链",
+      "members": [
+        415,
+        416
+      ],
+      "member_names": [
+        "小甲虫",
+        "铠甲虫"
+      ],
+      "member_stats": {
+        "415": 418,
+        "416": 522
+      },
+      "apex_id": 416,
+      "apex_name": "铠甲虫",
+      "conditions": {
+        "进化1": "40"
+      }
+    },
+    {
+      "id": "chain_103",
+      "name": "布瓜蝌进化链",
+      "members": [
+        471,
+        472
+      ],
+      "member_names": [
+        "布瓜蝌",
+        "上岸蛙"
+      ],
+      "member_stats": {
+        "471": 442,
+        "472": 554
+      },
+      "apex_id": 472,
+      "apex_name": "上岸蛙",
+      "conditions": {
+        "进化1": "33"
+      }
+    },
+    {
+      "id": "chain_109",
+      "name": "果冻进化链",
+      "members": [
+        446,
+        447
+      ],
+      "member_names": [
+        "果冻",
+        "抹茶布丁"
+      ],
+      "member_stats": {
+        "446": 437,
+        "447": 546
+      },
+      "apex_id": 447,
+      "apex_name": "抹茶布丁",
+      "conditions": {
+        "进化1": "30"
+      }
+    },
+    {
+      "id": "chain_110",
+      "name": "果冻进化链",
+      "members": [
+        446,
+        448
+      ],
+      "member_names": [
+        "果冻",
+        "椰浆布丁"
+      ],
+      "member_stats": {
+        "446": 437,
+        "448": 562
+      },
+      "apex_id": 448,
+      "apex_name": "椰浆布丁",
+      "conditions": {
+        "进化1": "30"
+      }
+    },
+    {
+      "id": "chain_111",
+      "name": "果冻进化链",
+      "members": [
+        446,
+        449
+      ],
+      "member_names": [
+        "果冻",
+        "熔岩布丁"
+      ],
+      "member_stats": {
+        "446": 437,
+        "449": 564
+      },
+      "apex_id": 449,
+      "apex_name": "熔岩布丁",
+      "conditions": {
+        "进化1": "30"
+      }
+    },
+    {
+      "id": "chain_112",
+      "name": "柴渣虫进化链",
+      "members": [
+        458,
+        459
+      ],
+      "member_names": [
+        "柴渣虫",
+        "燃薪虫"
+      ],
+      "member_stats": {
+        "458": 462,
+        "459": 579
+      },
+      "apex_id": 459,
+      "apex_name": "燃薪虫",
+      "conditions": {
+        "进化1": "40"
+      }
+    },
+    {
+      "id": "chain_118",
+      "name": "毛头小蛛进化链",
+      "members": [
+        429,
+        430
+      ],
+      "member_names": [
+        "毛头小蛛",
+        "捕尘长绒"
+      ],
+      "member_stats": {
+        "429": 452,
+        "430": 565
+      },
+      "apex_id": 430,
+      "apex_name": "捕尘长绒",
+      "conditions": {
+        "进化1": "30"
+      }
+    },
+    {
+      "id": "chain_119",
+      "name": "毛头小蛛进化链",
+      "members": [
+        429,
+        431
+      ],
+      "member_names": [
+        "毛头小蛛",
+        "食尘短绒"
+      ],
+      "member_stats": {
+        "429": 452,
+        "431": 576
+      },
+      "apex_id": 431,
+      "apex_name": "食尘短绒",
+      "conditions": {
+        "进化1": "30"
+      }
+    },
+    {
+      "id": "chain_121",
+      "name": "火红尾进化链",
+      "members": [
+        473,
+        474
+      ],
+      "member_names": [
+        "火红尾",
+        "雅丹鬃"
+      ],
+      "member_stats": {
+        "473": 511,
+        "474": 639
+      },
+      "apex_id": 474,
+      "apex_name": "雅丹鬃",
+      "conditions": {
+        "进化1": ""
+      }
+    },
+    {
+      "id": "chain_122",
+      "name": "牵线木偶进化链",
+      "members": [
+        507,
+        508
+      ],
+      "member_names": [
+        "牵线木偶",
+        "帅帅魔偶"
+      ],
+      "member_stats": {
+        "507": 509,
+        "508": 636
+      },
+      "apex_id": 508,
+      "apex_name": "帅帅魔偶",
+      "conditions": {
+        "进化1": "40"
+      }
+    },
+    {
+      "id": "chain_126",
+      "name": "粉星仔进化链",
+      "members": [
+        468,
+        469
+      ],
+      "member_names": [
+        "粉星仔",
+        "粉耳星兔"
+      ],
+      "member_stats": {
+        "468": 514,
+        "469": 642
+      },
+      "apex_id": 469,
+      "apex_name": "粉耳星兔",
+      "conditions": {
+        "进化1": "32"
+      }
+    },
+    {
+      "id": "chain_127",
+      "name": "粉粉星进化链",
+      "members": [
+        463,
+        464
+      ],
+      "member_names": [
+        "粉粉星",
+        "小皮球"
+      ],
+      "member_stats": {
+        "463": 495,
+        "464": 618
+      },
+      "apex_id": 464,
+      "apex_name": "小皮球",
+      "conditions": {
+        "进化1": "32"
+      }
+    },
+    {
+      "id": "chain_135",
+      "name": "螺旋帕帕进化链",
+      "members": [
+        390,
+        391
+      ],
+      "member_names": [
+        "螺旋帕帕",
+        "帕帕斯卡"
+      ],
+      "member_stats": {
+        "390": 377,
+        "391": 471
+      },
+      "apex_id": 391,
+      "apex_name": "帕帕斯卡",
+      "conditions": {
+        "进化1": "36"
+      }
+    },
+    {
+      "id": "chain_216",
+      "name": "乌达（独立）",
+      "members": [
+        385
+      ],
+      "member_names": [
+        "乌达"
+      ],
+      "member_stats": {
+        "385": 374
+      },
+      "apex_id": 385,
+      "apex_name": "乌达",
+      "conditions": {}
+    },
+    {
+      "id": "chain_217",
+      "name": "迷你乌（独立）",
+      "members": [
+        387
+      ],
+      "member_names": [
+        "迷你乌"
+      ],
+      "member_stats": {
+        "387": 498
+      },
+      "apex_id": 387,
+      "apex_name": "迷你乌",
+      "conditions": {}
+    },
+    {
+      "id": "chain_218",
+      "name": "乌拉塔（独立）",
+      "members": [
+        389
+      ],
+      "member_names": [
+        "乌拉塔"
+      ],
+      "member_stats": {
+        "389": 622
+      },
+      "apex_id": 389,
+      "apex_name": "乌拉塔",
+      "conditions": {}
+    },
+    {
+      "id": "chain_219",
+      "name": "噼啪鸟（独立）",
+      "members": [
+        401
+      ],
+      "member_names": [
+        "噼啪鸟"
+      ],
+      "member_stats": {
+        "401": 618
+      },
+      "apex_id": 401,
+      "apex_name": "噼啪鸟",
+      "conditions": {}
+    },
+    {
+      "id": "chain_220",
+      "name": "深蓝鲸（独立）",
+      "members": [
+        402
+      ],
+      "member_names": [
+        "深蓝鲸"
+      ],
+      "member_stats": {
+        "402": 588
+      },
+      "apex_id": 402,
+      "apex_name": "深蓝鲸",
+      "conditions": {}
+    },
+    {
+      "id": "chain_221",
+      "name": "月牙雪熊（独立）",
+      "members": [
+        455
+      ],
+      "member_names": [
+        "月牙雪熊"
+      ],
+      "member_stats": {
+        "455": 586
+      },
+      "apex_id": 455,
+      "apex_name": "月牙雪熊",
+      "conditions": {}
+    },
+    {
+      "id": "chain_222",
+      "name": "钨丝贝贝（独立）",
+      "members": [
+        481
+      ],
+      "member_names": [
+        "钨丝贝贝"
+      ],
+      "member_stats": {
+        "481": 358
+      },
+      "apex_id": 481,
+      "apex_name": "钨丝贝贝",
+      "conditions": {}
+    },
+    {
+      "id": "chain_223",
+      "name": "辉光幕机（独立）",
+      "members": [
+        482
+      ],
+      "member_names": [
+        "辉光幕机"
+      ],
+      "member_stats": {
+        "482": 478
+      },
+      "apex_id": 482,
+      "apex_name": "辉光幕机",
+      "conditions": {}
+    },
+    {
+      "id": "chain_224",
+      "name": "机幕方舟（独立）",
+      "members": [
+        483
+      ],
+      "member_names": [
+        "机幕方舟"
+      ],
+      "member_stats": {
+        "483": 597
+      },
+      "apex_id": 483,
+      "apex_name": "机幕方舟",
+      "conditions": {}
+    },
+    {
+      "id": "chain_225",
+      "name": "凡雀（独立）",
+      "members": [
+        484
+      ],
+      "member_names": [
+        "凡雀"
+      ],
+      "member_stats": {
+        "484": 372
+      },
+      "apex_id": 484,
+      "apex_name": "凡雀",
+      "conditions": {}
+    },
+    {
+      "id": "chain_226",
+      "name": "紫翎鹰（独立）",
+      "members": [
+        485
+      ],
+      "member_names": [
+        "紫翎鹰"
+      ],
+      "member_stats": {
+        "485": 496
+      },
+      "apex_id": 485,
+      "apex_name": "紫翎鹰",
+      "conditions": {}
+    },
+    {
+      "id": "chain_227",
+      "name": "凡鹰（独立）",
+      "members": [
+        486
+      ],
+      "member_names": [
+        "凡鹰"
+      ],
+      "member_stats": {
+        "486": 620
+      },
+      "apex_id": 486,
+      "apex_name": "凡鹰",
+      "conditions": {}
+    },
+    {
+      "id": "chain_228",
+      "name": "小雪人（独立）",
+      "members": [
+        487
+      ],
+      "member_names": [
+        "小雪人"
+      ],
+      "member_stats": {
+        "487": 509
+      },
+      "apex_id": 487,
+      "apex_name": "小雪人",
+      "conditions": {}
+    },
+    {
+      "id": "chain_229",
+      "name": "雪怪（独立）",
+      "members": [
+        488
+      ],
+      "member_names": [
+        "雪怪"
+      ],
+      "member_stats": {
+        "488": 636
+      },
+      "apex_id": 488,
+      "apex_name": "雪怪",
+      "conditions": {}
+    },
+    {
+      "id": "chain_230",
+      "name": "爆焰仔（独立）",
+      "members": [
+        489
+      ],
+      "member_names": [
+        "爆焰仔"
+      ],
+      "member_stats": {
+        "489": 498
+      },
+      "apex_id": 489,
+      "apex_name": "爆焰仔",
+      "conditions": {}
+    },
+    {
+      "id": "chain_231",
+      "name": "爆焰喷喷（独立）",
+      "members": [
+        490
+      ],
+      "member_names": [
+        "爆焰喷喷"
+      ],
+      "member_stats": {
+        "490": 624
+      },
+      "apex_id": 490,
+      "apex_name": "爆焰喷喷",
+      "conditions": {}
+    },
+    {
+      "id": "chain_232",
+      "name": "猴麦仔（独立）",
+      "members": [
+        491
+      ],
+      "member_names": [
+        "猴麦仔"
+      ],
+      "member_stats": {
+        "491": 529
+      },
+      "apex_id": 491,
+      "apex_name": "猴麦仔",
+      "conditions": {}
+    },
+    {
+      "id": "chain_233",
+      "name": "音碟吼（独立）",
+      "members": [
+        492
+      ],
+      "member_names": [
+        "音碟吼"
+      ],
+      "member_stats": {
+        "492": 661
+      },
+      "apex_id": 492,
+      "apex_name": "音碟吼",
+      "conditions": {}
+    },
+    {
+      "id": "chain_234",
+      "name": "加油海葵（独立）",
+      "members": [
+        493
+      ],
+      "member_names": [
+        "加油海葵"
+      ],
+      "member_stats": {
+        "493": 547
+      },
+      "apex_id": 493,
+      "apex_name": "加油海葵",
+      "conditions": {}
+    },
+    {
+      "id": "chain_235",
+      "name": "加油蟹（独立）",
+      "members": [
+        494
+      ],
+      "member_names": [
+        "加油蟹"
+      ],
+      "member_stats": {
+        "494": 683
+      },
+      "apex_id": 494,
+      "apex_name": "加油蟹",
+      "conditions": {}
+    },
+    {
+      "id": "chain_236",
+      "name": "小丑豆豆（独立）",
+      "members": [
+        496
+      ],
+      "member_names": [
+        "小丑豆豆"
+      ],
+      "member_stats": {
+        "496": 436
+      },
+      "apex_id": 496,
+      "apex_name": "小丑豆豆",
+      "conditions": {}
+    },
+    {
+      "id": "chain_237",
+      "name": "小丑兔（独立）",
+      "members": [
+        497
+      ],
+      "member_names": [
+        "小丑兔"
+      ],
+      "member_stats": {
+        "497": 583
+      },
+      "apex_id": 497,
+      "apex_name": "小丑兔",
+      "conditions": {}
+    },
+    {
+      "id": "chain_238",
+      "name": "小丑公爵（独立）",
+      "members": [
+        498
+      ],
+      "member_names": [
+        "小丑公爵"
+      ],
+      "member_stats": {
+        "498": 729
+      },
+      "apex_id": 498,
+      "apex_name": "小丑公爵",
+      "conditions": {}
+    },
+    {
+      "id": "chain_239",
+      "name": "烟花团（独立）",
+      "members": [
+        499
+      ],
+      "member_names": [
+        "烟花团"
+      ],
+      "member_stats": {
+        "499": 389
+      },
+      "apex_id": 499,
+      "apex_name": "烟花团",
+      "conditions": {}
+    },
+    {
+      "id": "chain_240",
+      "name": "烟花伯爵（独立）",
+      "members": [
+        500
+      ],
+      "member_names": [
+        "烟花伯爵"
+      ],
+      "member_stats": {
+        "500": 485
+      },
+      "apex_id": 500,
+      "apex_name": "烟花伯爵",
+      "conditions": {}
+    },
+    {
+      "id": "chain_241",
+      "name": "咕咕帽（独立）",
+      "members": [
+        501
+      ],
+      "member_names": [
+        "咕咕帽"
+      ],
+      "member_stats": {
+        "501": 515
+      },
+      "apex_id": 501,
+      "apex_name": "咕咕帽",
+      "conditions": {}
+    },
+    {
+      "id": "chain_242",
+      "name": "咕德帽帽（独立）",
+      "members": [
+        502
+      ],
+      "member_names": [
+        "咕德帽帽"
+      ],
+      "member_stats": {
+        "502": 642
+      },
+      "apex_id": 502,
+      "apex_name": "咕德帽帽",
+      "conditions": {}
+    },
+    {
+      "id": "chain_243",
+      "name": "炫光迪迪（独立）",
+      "members": [
+        503
+      ],
+      "member_names": [
+        "炫光迪迪"
+      ],
+      "member_stats": {
+        "503": 551
+      },
+      "apex_id": 503,
+      "apex_name": "炫光迪迪",
+      "conditions": {}
+    },
+    {
+      "id": "chain_244",
+      "name": "霹雳迪迪（独立）",
+      "members": [
+        504
+      ],
+      "member_names": [
+        "霹雳迪迪"
+      ],
+      "member_stats": {
+        "504": 690
+      },
+      "apex_id": 504,
+      "apex_name": "霹雳迪迪",
+      "conditions": {}
+    },
+    {
+      "id": "chain_245",
+      "name": "小鼓象（独立）",
+      "members": [
+        505
+      ],
+      "member_names": [
+        "小鼓象"
+      ],
+      "member_stats": {
+        "505": 539
+      },
+      "apex_id": 505,
+      "apex_name": "小鼓象",
+      "conditions": {}
+    },
+    {
+      "id": "chain_246",
+      "name": "巨鼓象（独立）",
+      "members": [
+        506
+      ],
+      "member_names": [
+        "巨鼓象"
+      ],
+      "member_stats": {
+        "506": 675
+      },
+      "apex_id": 506,
+      "apex_name": "巨鼓象",
+      "conditions": {}
+    },
+    {
+      "id": "chain_247",
+      "name": "学院呱呱（独立）",
+      "members": [
+        509
+      ],
+      "member_names": [
+        "学院呱呱"
+      ],
+      "member_stats": {
+        "509": 614
+      },
+      "apex_id": 509,
+      "apex_name": "学院呱呱",
+      "conditions": {}
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Total pets: 501
+Primary (base form): 501
+Cosmetic variants: 0
+
+Groups with variants: 0

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+*.so
+
+# 敏感配置
+*.env
+config.local.*
+
+# 日志
+log/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 依赖
+venv/
+.venv/
+
+# Node
+node_modules/
+dist/
+
+# 构建产出
+web/dist/
+
+# 数据产出（中间文件，非原始数据）
+ml/data/*.npz

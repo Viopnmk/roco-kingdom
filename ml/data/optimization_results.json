@@ -1,0 +1,1406 @@
+{
+  "global_best": [
+    {
+      "team": [
+        {
+          "pet_id": 199,
+          "name": "气球猫",
+          "type_primary": "萌",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "交叉闪电",
+            "热身运动",
+            "升龙咆哮",
+            "超级糖果"
+          ],
+          "stats": {
+            "hp": 64,
+            "atk": 93,
+            "def": 90,
+            "sp_atk": 86,
+            "sp_def": 90,
+            "speed": 88
+          }
+        },
+        {
+          "pet_id": 336,
+          "name": "粉耳星兔",
+          "type_primary": "幻",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "念力膨胀",
+            "吓退",
+            "音爆"
+          ],
+          "stats": {
+            "hp": 100,
+            "atk": 79,
+            "def": 73,
+            "sp_atk": 148,
+            "sp_def": 127,
+            "speed": 115
+          }
+        },
+        {
+          "pet_id": 375,
+          "name": "学院呱呱",
+          "type_primary": "武",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "热身运动",
+            "彗星",
+            "升龙咆哮",
+            "地震"
+          ],
+          "stats": {
+            "hp": 132,
+            "atk": 99,
+            "def": 92,
+            "sp_atk": 99,
+            "sp_def": 92,
+            "speed": 100
+          }
+        },
+        {
+          "pet_id": 373,
+          "name": "牵线木偶",
+          "type_primary": "幻",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "芳香诱引",
+            "升龙咆哮",
+            "虹光冲击",
+            "顶端优势"
+          ],
+          "stats": {
+            "hp": 82,
+            "atk": 62,
+            "def": 72,
+            "sp_atk": 67,
+            "sp_def": 103,
+            "speed": 84
+          }
+        },
+        {
+          "pet_id": 117,
+          "name": "白金独角兽",
+          "type_primary": "光",
+          "type_secondary": null,
+          "role": "控场",
+          "skills": [
+            "升龙咆哮",
+            "龙卷风",
+            "极寒领域",
+            "耀眼"
+          ],
+          "stats": {
+            "hp": 99,
+            "atk": 78,
+            "def": 77,
+            "sp_atk": 192,
+            "sp_def": 92,
+            "speed": 105
+          }
+        },
+        {
+          "pet_id": 219,
+          "name": "里拉鳐",
+          "type_primary": "水",
+          "type_secondary": null,
+          "role": "天气手",
+          "skills": [
+            "消毒法",
+            "水幕冲击",
+            "防御",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 118,
+            "atk": 82,
+            "def": 103,
+            "sp_atk": 89,
+            "sp_def": 147,
+            "speed": 105
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 10.0,
+        "synergy": 73.3,
+        "stats": 19.2,
+        "role_balance": 3.7,
+        "speed": 8.2,
+        "energy": 9.2,
+        "total": 262.3
+      }
+    },
+    {
+      "team": [
+        {
+          "pet_id": 147,
+          "name": "灵狐",
+          "type_primary": "冰",
+          "type_secondary": "火",
+          "role": "天气手",
+          "skills": [
+            "升龙咆哮",
+            "爆裂飞弹",
+            "火焰护盾",
+            "火焰切割"
+          ],
+          "stats": {
+            "hp": 69,
+            "atk": 52,
+            "def": 50,
+            "sp_atk": 52,
+            "sp_def": 64,
+            "speed": 60
+          }
+        },
+        {
+          "pet_id": 336,
+          "name": "粉耳星兔",
+          "type_primary": "幻",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "念力膨胀",
+            "吓退",
+            "音爆"
+          ],
+          "stats": {
+            "hp": 100,
+            "atk": 79,
+            "def": 73,
+            "sp_atk": 148,
+            "sp_def": 127,
+            "speed": 115
+          }
+        },
+        {
+          "pet_id": 375,
+          "name": "学院呱呱",
+          "type_primary": "武",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "热身运动",
+            "彗星",
+            "升龙咆哮",
+            "地震"
+          ],
+          "stats": {
+            "hp": 132,
+            "atk": 99,
+            "def": 92,
+            "sp_atk": 99,
+            "sp_def": 92,
+            "speed": 100
+          }
+        },
+        {
+          "pet_id": 373,
+          "name": "牵线木偶",
+          "type_primary": "幻",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "芳香诱引",
+            "升龙咆哮",
+            "虹光冲击",
+            "顶端优势"
+          ],
+          "stats": {
+            "hp": 82,
+            "atk": 62,
+            "def": 72,
+            "sp_atk": 67,
+            "sp_def": 103,
+            "speed": 84
+          }
+        },
+        {
+          "pet_id": 117,
+          "name": "白金独角兽",
+          "type_primary": "光",
+          "type_secondary": null,
+          "role": "控场",
+          "skills": [
+            "升龙咆哮",
+            "龙卷风",
+            "极寒领域",
+            "耀眼"
+          ],
+          "stats": {
+            "hp": 99,
+            "atk": 78,
+            "def": 77,
+            "sp_atk": 192,
+            "sp_def": 92,
+            "speed": 105
+          }
+        },
+        {
+          "pet_id": 219,
+          "name": "里拉鳐",
+          "type_primary": "水",
+          "type_secondary": null,
+          "role": "天气手",
+          "skills": [
+            "消毒法",
+            "水幕冲击",
+            "防御",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 118,
+            "atk": 82,
+            "def": 103,
+            "sp_atk": 89,
+            "sp_def": 147,
+            "speed": 105
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 10.0,
+        "synergy": 73.5,
+        "stats": 18.7,
+        "role_balance": 3.7,
+        "speed": 7.4,
+        "energy": 9.1,
+        "total": 261.6
+      }
+    },
+    {
+      "team": [
+        {
+          "pet_id": 11,
+          "name": "鸭吉吉",
+          "type_primary": "普通",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "扫尾",
+            "吓退",
+            "升龙咆哮",
+            "冲撞"
+          ],
+          "stats": {
+            "hp": 136,
+            "atk": 95,
+            "def": 55,
+            "sp_atk": 35,
+            "sp_def": 45,
+            "speed": 105
+          }
+        },
+        {
+          "pet_id": 336,
+          "name": "粉耳星兔",
+          "type_primary": "幻",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "念力膨胀",
+            "吓退",
+            "音爆"
+          ],
+          "stats": {
+            "hp": 100,
+            "atk": 79,
+            "def": 73,
+            "sp_atk": 148,
+            "sp_def": 127,
+            "speed": 115
+          }
+        },
+        {
+          "pet_id": 375,
+          "name": "学院呱呱",
+          "type_primary": "武",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "热身运动",
+            "彗星",
+            "升龙咆哮",
+            "地震"
+          ],
+          "stats": {
+            "hp": 132,
+            "atk": 99,
+            "def": 92,
+            "sp_atk": 99,
+            "sp_def": 92,
+            "speed": 100
+          }
+        },
+        {
+          "pet_id": 238,
+          "name": "月亮砣下弦的样子",
+          "type_primary": "毒",
+          "type_secondary": "萌",
+          "role": "坦克",
+          "skills": [
+            "升龙咆哮",
+            "压扁",
+            "不可接触",
+            "爆米花爆破"
+          ],
+          "stats": {
+            "hp": 125,
+            "atk": 100,
+            "def": 100,
+            "sp_atk": 98,
+            "sp_def": 81,
+            "speed": 105
+          }
+        },
+        {
+          "pet_id": 367,
+          "name": "咕咕帽",
+          "type_primary": "幽灵",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "升龙咆哮",
+            "撞鬼",
+            "双星",
+            "报复"
+          ],
+          "stats": {
+            "hp": 103,
+            "atk": 74,
+            "def": 110,
+            "sp_atk": 72,
+            "sp_def": 76,
+            "speed": 80
+          }
+        },
+        {
+          "pet_id": 219,
+          "name": "里拉鳐",
+          "type_primary": "水",
+          "type_secondary": null,
+          "role": "天气手",
+          "skills": [
+            "消毒法",
+            "水幕冲击",
+            "防御",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 118,
+            "atk": 82,
+            "def": 103,
+            "sp_atk": 89,
+            "sp_def": 147,
+            "speed": 105
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 7.0,
+        "synergy": 72.2,
+        "stats": 17.3,
+        "role_balance": 5.7,
+        "speed": 8.3,
+        "energy": 9.1,
+        "total": 250.4
+      }
+    },
+    {
+      "team": [
+        {
+          "pet_id": 195,
+          "name": "呆小路",
+          "type_primary": "草",
+          "type_secondary": "萌",
+          "role": "辅助",
+          "skills": [
+            "光能聚集",
+            "芳香诱引",
+            "升龙咆哮",
+            "龙之利爪"
+          ],
+          "stats": {
+            "hp": 52,
+            "atk": 60,
+            "def": 68,
+            "sp_atk": 64,
+            "sp_def": 79,
+            "speed": 57
+          }
+        },
+        {
+          "pet_id": 336,
+          "name": "粉耳星兔",
+          "type_primary": "幻",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "念力膨胀",
+            "吓退",
+            "音爆"
+          ],
+          "stats": {
+            "hp": 100,
+            "atk": 79,
+            "def": 73,
+            "sp_atk": 148,
+            "sp_def": 127,
+            "speed": 115
+          }
+        },
+        {
+          "pet_id": 375,
+          "name": "学院呱呱",
+          "type_primary": "武",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "热身运动",
+            "彗星",
+            "升龙咆哮",
+            "地震"
+          ],
+          "stats": {
+            "hp": 132,
+            "atk": 99,
+            "def": 92,
+            "sp_atk": 99,
+            "sp_def": 92,
+            "speed": 100
+          }
+        },
+        {
+          "pet_id": 238,
+          "name": "月亮砣下弦的样子",
+          "type_primary": "毒",
+          "type_secondary": "萌",
+          "role": "坦克",
+          "skills": [
+            "升龙咆哮",
+            "压扁",
+            "不可接触",
+            "爆米花爆破"
+          ],
+          "stats": {
+            "hp": 125,
+            "atk": 100,
+            "def": 100,
+            "sp_atk": 98,
+            "sp_def": 81,
+            "speed": 105
+          }
+        },
+        {
+          "pet_id": 367,
+          "name": "咕咕帽",
+          "type_primary": "幽灵",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "升龙咆哮",
+            "撞鬼",
+            "双星",
+            "报复"
+          ],
+          "stats": {
+            "hp": 103,
+            "atk": 74,
+            "def": 110,
+            "sp_atk": 72,
+            "sp_def": 76,
+            "speed": 80
+          }
+        },
+        {
+          "pet_id": 219,
+          "name": "里拉鳐",
+          "type_primary": "水",
+          "type_secondary": null,
+          "role": "天气手",
+          "skills": [
+            "消毒法",
+            "水幕冲击",
+            "防御",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 118,
+            "atk": 82,
+            "def": 103,
+            "sp_atk": 89,
+            "sp_def": 147,
+            "speed": 105
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 0,
+        "synergy": 75.9,
+        "stats": 16.8,
+        "role_balance": 5.7,
+        "speed": 6.4,
+        "energy": 9.1,
+        "total": 235.1
+      }
+    },
+    {
+      "team": [
+        {
+          "pet_id": 161,
+          "name": "游蛇魔使",
+          "type_primary": "水",
+          "type_secondary": "武",
+          "role": "天气手",
+          "skills": [
+            "泡沫幻影",
+            "坟场搏击",
+            "升龙咆哮",
+            "一拳"
+          ],
+          "stats": {
+            "hp": 105,
+            "atk": 110,
+            "def": 103,
+            "sp_atk": 104,
+            "sp_def": 103,
+            "speed": 105
+          }
+        },
+        {
+          "pet_id": 336,
+          "name": "粉耳星兔",
+          "type_primary": "幻",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "念力膨胀",
+            "吓退",
+            "音爆"
+          ],
+          "stats": {
+            "hp": 100,
+            "atk": 79,
+            "def": 73,
+            "sp_atk": 148,
+            "sp_def": 127,
+            "speed": 115
+          }
+        },
+        {
+          "pet_id": 375,
+          "name": "学院呱呱",
+          "type_primary": "武",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "热身运动",
+            "彗星",
+            "升龙咆哮",
+            "地震"
+          ],
+          "stats": {
+            "hp": 132,
+            "atk": 99,
+            "def": 92,
+            "sp_atk": 99,
+            "sp_def": 92,
+            "speed": 100
+          }
+        },
+        {
+          "pet_id": 238,
+          "name": "月亮砣下弦的样子",
+          "type_primary": "毒",
+          "type_secondary": "萌",
+          "role": "坦克",
+          "skills": [
+            "升龙咆哮",
+            "压扁",
+            "不可接触",
+            "爆米花爆破"
+          ],
+          "stats": {
+            "hp": 125,
+            "atk": 100,
+            "def": 100,
+            "sp_atk": 98,
+            "sp_def": 81,
+            "speed": 105
+          }
+        },
+        {
+          "pet_id": 117,
+          "name": "白金独角兽",
+          "type_primary": "光",
+          "type_secondary": null,
+          "role": "控场",
+          "skills": [
+            "升龙咆哮",
+            "龙卷风",
+            "极寒领域",
+            "耀眼"
+          ],
+          "stats": {
+            "hp": 99,
+            "atk": 78,
+            "def": 77,
+            "sp_atk": 192,
+            "sp_def": 92,
+            "speed": 105
+          }
+        },
+        {
+          "pet_id": 219,
+          "name": "里拉鳐",
+          "type_primary": "水",
+          "type_secondary": null,
+          "role": "天气手",
+          "skills": [
+            "消毒法",
+            "水幕冲击",
+            "防御",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 118,
+            "atk": 82,
+            "def": 103,
+            "sp_atk": 89,
+            "sp_def": 147,
+            "speed": 105
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 0,
+        "synergy": 73.5,
+        "stats": 19.5,
+        "role_balance": 4.8,
+        "speed": 6.4,
+        "energy": 9.3,
+        "total": 233.4
+      }
+    }
+  ],
+  "style_burn": [
+    {
+      "team": [
+        {
+          "pet_id": 192,
+          "name": "棋绮后白子",
+          "type_primary": "地",
+          "type_secondary": "武",
+          "role": "辅助",
+          "skills": [
+            "抛石",
+            "升龙咆哮",
+            "有效预防",
+            "陨石"
+          ],
+          "stats": {
+            "hp": 93,
+            "atk": 84,
+            "def": 82,
+            "sp_atk": 84,
+            "sp_def": 75,
+            "speed": 90
+          }
+        },
+        {
+          "pet_id": 112,
+          "name": "巨灵石",
+          "type_primary": "地",
+          "type_secondary": "幽灵",
+          "role": "天气手",
+          "skills": [
+            "吓退",
+            "幽灵爆发",
+            "地震",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 95,
+            "atk": 99,
+            "def": 126,
+            "sp_atk": 99,
+            "sp_def": 70,
+            "speed": 95
+          }
+        },
+        {
+          "pet_id": 113,
+          "name": "仪使者",
+          "type_primary": "地",
+          "type_secondary": "幻",
+          "role": "天气手",
+          "skills": [
+            "抛石",
+            "四维降解",
+            "硬化",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 64,
+            "atk": 54,
+            "def": 69,
+            "sp_atk": 57,
+            "sp_def": 71,
+            "speed": 51
+          }
+        },
+        {
+          "pet_id": 366,
+          "name": "烟花伯爵",
+          "type_primary": "火",
+          "type_secondary": "毒",
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "火焰箭",
+            "毒液渗透",
+            "毒肽"
+          ],
+          "stats": {
+            "hp": 76,
+            "atk": 44,
+            "def": 62,
+            "sp_atk": 111,
+            "sp_def": 97,
+            "speed": 95
+          }
+        },
+        {
+          "pet_id": 375,
+          "name": "学院呱呱",
+          "type_primary": "武",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "升龙咆哮",
+            "彗星",
+            "地震",
+            "热身运动"
+          ],
+          "stats": {
+            "hp": 132,
+            "atk": 99,
+            "def": 92,
+            "sp_atk": 99,
+            "sp_def": 92,
+            "speed": 100
+          }
+        },
+        {
+          "pet_id": 127,
+          "name": "古啦多",
+          "type_primary": "地",
+          "type_secondary": "毒",
+          "role": "坦克",
+          "skills": [
+            "岩土暴击",
+            "不可接触",
+            "音爆",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 85,
+            "atk": 88,
+            "def": 134,
+            "sp_atk": 88,
+            "sp_def": 74,
+            "speed": 90
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 0,
+        "synergy": 78.8,
+        "stats": 17.3,
+        "role_balance": 4.8,
+        "speed": 8.6,
+        "energy": 9.6,
+        "total": 242.1
+      }
+    },
+    {
+      "team": [
+        {
+          "pet_id": 192,
+          "name": "棋绮后白子",
+          "type_primary": "地",
+          "type_secondary": "武",
+          "role": "辅助",
+          "skills": [
+            "抛石",
+            "升龙咆哮",
+            "有效预防",
+            "陨石"
+          ],
+          "stats": {
+            "hp": 93,
+            "atk": 84,
+            "def": 82,
+            "sp_atk": 84,
+            "sp_def": 75,
+            "speed": 90
+          }
+        },
+        {
+          "pet_id": 112,
+          "name": "巨灵石",
+          "type_primary": "地",
+          "type_secondary": "幽灵",
+          "role": "天气手",
+          "skills": [
+            "吓退",
+            "幽灵爆发",
+            "地震",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 95,
+            "atk": 99,
+            "def": 126,
+            "sp_atk": 99,
+            "sp_def": 70,
+            "speed": 95
+          }
+        },
+        {
+          "pet_id": 113,
+          "name": "仪使者",
+          "type_primary": "地",
+          "type_secondary": "幻",
+          "role": "天气手",
+          "skills": [
+            "抛石",
+            "四维降解",
+            "硬化",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 64,
+            "atk": 54,
+            "def": 69,
+            "sp_atk": 57,
+            "sp_def": 71,
+            "speed": 51
+          }
+        },
+        {
+          "pet_id": 148,
+          "name": "九尾狐",
+          "type_primary": "冰",
+          "type_secondary": "火",
+          "role": "天气手",
+          "skills": [
+            "火焰护盾",
+            "升龙咆哮",
+            "爆裂飞弹",
+            "火焰切割"
+          ],
+          "stats": {
+            "hp": 92,
+            "atk": 70,
+            "def": 67,
+            "sp_atk": 70,
+            "sp_def": 86,
+            "speed": 80
+          }
+        },
+        {
+          "pet_id": 375,
+          "name": "学院呱呱",
+          "type_primary": "武",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "升龙咆哮",
+            "彗星",
+            "地震",
+            "热身运动"
+          ],
+          "stats": {
+            "hp": 132,
+            "atk": 99,
+            "def": 92,
+            "sp_atk": 99,
+            "sp_def": 92,
+            "speed": 100
+          }
+        },
+        {
+          "pet_id": 127,
+          "name": "古啦多",
+          "type_primary": "地",
+          "type_secondary": "毒",
+          "role": "坦克",
+          "skills": [
+            "岩土暴击",
+            "不可接触",
+            "音爆",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 85,
+            "atk": 88,
+            "def": 134,
+            "sp_atk": 88,
+            "sp_def": 74,
+            "speed": 90
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 0,
+        "synergy": 79.2,
+        "stats": 16.0,
+        "role_balance": 4.8,
+        "speed": 8.8,
+        "energy": 9.7,
+        "total": 241.1
+      }
+    },
+    {
+      "team": [
+        {
+          "pet_id": 4,
+          "name": "魔力猫",
+          "type_primary": "草",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "防御",
+            "叶绿光束",
+            "仙人掌刺击"
+          ],
+          "stats": {
+            "hp": 108,
+            "atk": 127,
+            "def": 81,
+            "sp_atk": 127,
+            "sp_def": 151,
+            "speed": 55
+          }
+        },
+        {
+          "pet_id": 112,
+          "name": "巨灵石",
+          "type_primary": "地",
+          "type_secondary": "幽灵",
+          "role": "天气手",
+          "skills": [
+            "吓退",
+            "幽灵爆发",
+            "地震",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 95,
+            "atk": 99,
+            "def": 126,
+            "sp_atk": 99,
+            "sp_def": 70,
+            "speed": 95
+          }
+        },
+        {
+          "pet_id": 113,
+          "name": "仪使者",
+          "type_primary": "地",
+          "type_secondary": "幻",
+          "role": "天气手",
+          "skills": [
+            "抛石",
+            "四维降解",
+            "硬化",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 64,
+            "atk": 54,
+            "def": 69,
+            "sp_atk": 57,
+            "sp_def": 71,
+            "speed": 51
+          }
+        },
+        {
+          "pet_id": 366,
+          "name": "烟花伯爵",
+          "type_primary": "火",
+          "type_secondary": "毒",
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "火焰箭",
+            "毒液渗透",
+            "毒肽"
+          ],
+          "stats": {
+            "hp": 76,
+            "atk": 44,
+            "def": 62,
+            "sp_atk": 111,
+            "sp_def": 97,
+            "speed": 95
+          }
+        },
+        {
+          "pet_id": 311,
+          "name": "光纤兽",
+          "type_primary": "光",
+          "type_secondary": null,
+          "role": "控场",
+          "skills": [
+            "升龙咆哮",
+            "光刃",
+            "偷袭",
+            "三连破"
+          ],
+          "stats": {
+            "hp": 83,
+            "atk": 117,
+            "def": 90,
+            "sp_atk": 54,
+            "sp_def": 58,
+            "speed": 88
+          }
+        },
+        {
+          "pet_id": 309,
+          "name": "绒仙子",
+          "type_primary": "光",
+          "type_secondary": "虫",
+          "role": "坦克",
+          "skills": [
+            "虫结阵",
+            "升龙咆哮",
+            "虹光冲击",
+            "光刃"
+          ],
+          "stats": {
+            "hp": 96,
+            "atk": 71,
+            "def": 81,
+            "sp_atk": 73,
+            "sp_def": 133,
+            "speed": 115
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 0,
+        "synergy": 76.6,
+        "stats": 18.6,
+        "role_balance": 3.7,
+        "speed": 3.5,
+        "energy": 8.8,
+        "total": 235.6
+      }
+    },
+    {
+      "team": [
+        {
+          "pet_id": 192,
+          "name": "棋绮后白子",
+          "type_primary": "地",
+          "type_secondary": "武",
+          "role": "辅助",
+          "skills": [
+            "抛石",
+            "升龙咆哮",
+            "有效预防",
+            "陨石"
+          ],
+          "stats": {
+            "hp": 93,
+            "atk": 84,
+            "def": 82,
+            "sp_atk": 84,
+            "sp_def": 75,
+            "speed": 90
+          }
+        },
+        {
+          "pet_id": 363,
+          "name": "小丑兔",
+          "type_primary": "恶",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "栽赃",
+            "恶意逃离",
+            "暗突袭"
+          ],
+          "stats": {
+            "hp": 88,
+            "atk": 116,
+            "def": 66,
+            "sp_atk": 118,
+            "sp_def": 99,
+            "speed": 96
+          }
+        },
+        {
+          "pet_id": 181,
+          "name": "海豹战士",
+          "type_primary": "武",
+          "type_secondary": "水",
+          "role": "辅助",
+          "skills": [
+            "水刃",
+            "一拳",
+            "淤泥表皮",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 72,
+            "atk": 91,
+            "def": 89,
+            "sp_atk": 87,
+            "sp_def": 62,
+            "speed": 80
+          }
+        },
+        {
+          "pet_id": 280,
+          "name": "墨鱿士",
+          "type_primary": "幽灵",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "防御",
+            "坟场搏击",
+            "升龙咆哮",
+            "彼岸之手"
+          ],
+          "stats": {
+            "hp": 117,
+            "atk": 104,
+            "def": 114,
+            "sp_atk": 41,
+            "sp_def": 87,
+            "speed": 56
+          }
+        },
+        {
+          "pet_id": 57,
+          "name": "梦游穿旧睡衣的样子",
+          "type_primary": "幽灵",
+          "type_secondary": null,
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "虚假破产",
+            "幽灵爆发",
+            "虹光冲击"
+          ],
+          "stats": {
+            "hp": 90,
+            "atk": 40,
+            "def": 60,
+            "sp_atk": 106,
+            "sp_def": 74,
+            "speed": 92
+          }
+        },
+        {
+          "pet_id": 184,
+          "name": "圆号鱼",
+          "type_primary": "水",
+          "type_secondary": null,
+          "role": "天气手",
+          "skills": [
+            "泡沫幻影",
+            "许愿星",
+            "升龙咆哮",
+            "主轴"
+          ],
+          "stats": {
+            "hp": 113,
+            "atk": 31,
+            "def": 95,
+            "sp_atk": 95,
+            "sp_def": 110,
+            "speed": 105
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 0,
+        "synergy": 60.0,
+        "stats": 19.3,
+        "role_balance": 3.7,
+        "speed": 9.2,
+        "energy": 9.0,
+        "total": 206.4
+      }
+    },
+    {
+      "team": [
+        {
+          "pet_id": 192,
+          "name": "棋绮后白子",
+          "type_primary": "地",
+          "type_secondary": "武",
+          "role": "辅助",
+          "skills": [
+            "抛石",
+            "升龙咆哮",
+            "有效预防",
+            "陨石"
+          ],
+          "stats": {
+            "hp": 93,
+            "atk": 84,
+            "def": 82,
+            "sp_atk": 84,
+            "sp_def": 75,
+            "speed": 90
+          }
+        },
+        {
+          "pet_id": 112,
+          "name": "巨灵石",
+          "type_primary": "地",
+          "type_secondary": "幽灵",
+          "role": "天气手",
+          "skills": [
+            "吓退",
+            "幽灵爆发",
+            "地震",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 95,
+            "atk": 99,
+            "def": 126,
+            "sp_atk": 99,
+            "sp_def": 70,
+            "speed": 95
+          }
+        },
+        {
+          "pet_id": 160,
+          "name": "水蛇锁",
+          "type_primary": "水",
+          "type_secondary": "武",
+          "role": "天气手",
+          "skills": [
+            "一拳",
+            "升龙咆哮",
+            "坟场搏击",
+            "泡沫幻影"
+          ],
+          "stats": {
+            "hp": 83,
+            "atk": 93,
+            "def": 81,
+            "sp_atk": 89,
+            "sp_def": 81,
+            "speed": 84
+          }
+        },
+        {
+          "pet_id": 366,
+          "name": "烟花伯爵",
+          "type_primary": "火",
+          "type_secondary": "毒",
+          "role": "辅助",
+          "skills": [
+            "升龙咆哮",
+            "火焰箭",
+            "毒液渗透",
+            "毒肽"
+          ],
+          "stats": {
+            "hp": 76,
+            "atk": 44,
+            "def": 62,
+            "sp_atk": 111,
+            "sp_def": 97,
+            "speed": 95
+          }
+        },
+        {
+          "pet_id": 375,
+          "name": "学院呱呱",
+          "type_primary": "武",
+          "type_secondary": null,
+          "role": "坦克",
+          "skills": [
+            "升龙咆哮",
+            "彗星",
+            "地震",
+            "热身运动"
+          ],
+          "stats": {
+            "hp": 132,
+            "atk": 99,
+            "def": 92,
+            "sp_atk": 99,
+            "sp_def": 92,
+            "speed": 100
+          }
+        },
+        {
+          "pet_id": 106,
+          "name": "阿米樱",
+          "type_primary": "地",
+          "type_secondary": null,
+          "role": "物理输出",
+          "skills": [
+            "后发制人",
+            "有效预防",
+            "地震",
+            "升龙咆哮"
+          ],
+          "stats": {
+            "hp": 86,
+            "atk": 127,
+            "def": 89,
+            "sp_atk": 62,
+            "sp_def": 56,
+            "speed": 60
+          }
+        }
+      ],
+      "scores": {
+        "coverage": 14.9,
+        "defense": 0,
+        "synergy": 55.7,
+        "stats": 19.5,
+        "role_balance": 5.7,
+        "speed": 9.5,
+        "energy": 9.5,
+        "total": 200.4
+      }
+    }
+  ]
+}

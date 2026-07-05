@@ -1,0 +1,78 @@
+{
+  "5": {
+    "boss_name": "叶冕魔力猫",
+    "base_name": "喵喵"
+  },
+  "9": {
+    "boss_name": "烈火战神",
+    "base_name": "火花"
+  },
+  "13": {
+    "boss_name": "圣水守护",
+    "base_name": "水蓝蓝"
+  },
+  "48": {
+    "boss_name": "霜翼领主",
+    "base_name": "雪绒鸟（本来的样子）"
+  },
+  "64": {
+    "boss_name": "迷嶂布莱克",
+    "base_name": "布是石"
+  },
+  "74": {
+    "boss_name": "幻影荆棘",
+    "base_name": "幽影树"
+  },
+  "94": {
+    "boss_name": "奇丽果",
+    "base_name": "奇丽草"
+  },
+  "106": {
+    "boss_name": "风暴战犬",
+    "base_name": "护主犬"
+  },
+  "155": {
+    "boss_name": "千棘海针",
+    "base_name": "海盔虫（本来的样子）"
+  },
+  "165": {
+    "boss_name": "女王蜂",
+    "base_name": "一窝蜂"
+  },
+  "199": {
+    "boss_name": "祭礼巨像",
+    "base_name": "仪使者"
+  },
+  "202": {
+    "boss_name": "彩虹独角兽",
+    "base_name": "小独角兽"
+  },
+  "211": {
+    "boss_name": "黑猫密探",
+    "base_name": "小黑猫"
+  },
+  "221": {
+    "boss_name": "恶魔狼王",
+    "base_name": "恶魔狼"
+  },
+  "235": {
+    "boss_name": "雪影冰灵",
+    "base_name": "大耳帽兜"
+  },
+  "308": {
+    "boss_name": "奇梦咪",
+    "base_name": "逗逗"
+  },
+  "313": {
+    "boss_name": "伊兰龙",
+    "base_name": "伊雷龙"
+  },
+  "341": {
+    "boss_name": "波普鹿",
+    "base_name": "电动长颈鹿"
+  },
+  "419": {
+    "boss_name": "圣剑骑士",
+    "base_name": "圣剑侍从"
+  }
+}
