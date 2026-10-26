@@ -2,6 +2,7 @@ import { useState } from "react";
 import type { OptimizeRequest, OptimizeResult, OptimizeResponse } from "../types/api";
 import { API_BASE } from "../types/api";
 import ConstraintPanel, { Constraints, defaultConstraints } from "../components/ConstraintPanel";
+import { pets, skills } from "../data";
 import TeamCard from "../components/TeamCard";
 
 type SearchState = "idle" | "loading" | "done" | "error";
@@ -136,7 +137,7 @@ export default function AiBuilderPage() {
               <p className="ai-idle-icon">🧬</p>
               <p className="ai-idle-text">设置约束条件后点击搜索</p>
               <p className="ai-idle-hint">
-                遗传算法将自动在 375 只精灵 × 494 个技能中搜索最优组合
+                遗传算法将自动在 {pets.length} 只精灵 × {skills.length} 个技能中搜索最优组合
               </p>
             </div>
           )}
