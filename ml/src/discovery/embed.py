@@ -107,6 +107,9 @@ def embed_pets(
     """
     result: Dict[int, np.ndarray] = {}
     missing = 0
+    # 占位零向量维度须与技能向量一致（原代码写死 384，仅在真实模型下成立；
+    # 标签向量回退路径为 25 维，混用会使 save_embeddings 堆叠失败，2026-10-26 修正）
+    dim = len(next(iter(skill_embeddings.values()))) if skill_embeddings else 384
     for pet in pet_profiles:
         pid = pet["id"]
         skills = pet.get("optimal_skills", [])
@@ -121,7 +124,7 @@ def embed_pets(
                 avg /= norm
             result[pid] = avg
         else:
-            result[pid] = np.zeros(384, dtype=np.float32)
+            result[pid] = np.zeros(dim, dtype=np.float32)
             missing += 1
     print(f"精灵 embedding: {len(result)} 只 (无技能数据: {missing})")
     return result

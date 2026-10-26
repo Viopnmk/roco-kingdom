@@ -61,6 +61,15 @@ def clean_pets(raw_pets: list[dict]) -> list[dict]:
 
         cleaned.append(pet)
 
+    # 同名去重：保留种族值总和更高的一条
+    # （同一精灵的形态页可能解析出一条全 0 记录，勿让其顶掉正常记录，2026-10-26 修正）
+    best = {}
+    for p in cleaned:
+        cur = best.get(p["name"])
+        if cur is None or p["stats"]["total"] > cur["stats"]["total"]:
+            best[p["name"]] = p
+    cleaned = list(best.values())
+
     # 按编号排序
     cleaned.sort(key=lambda p: p["id"] if p["id"] else 9999)
     return cleaned
@@ -207,11 +216,63 @@ def run_pipeline():
     print(f"  LCX精灵: {len(lcx_pets)} 条")
     print(f"  LCX技能: {len(lcx_skills)} 条")
 
-    # 1.5 如果有 LCX 数据，优先使用
+    # 1.5 合并 LCX 数据：BWIKI 为主源，LCX 仅按名补缺
+    # （原逻辑为 LCX 整体覆盖 BWIKI，会丢弃 BWIKI 的全部更新，2026-10-26 修正）
     if lcx_pets:
-        pets_raw = lcx_pets
+        by_name = {p["name"]: p for p in pets_raw if p.get("name")}
+        added = 0
+        for p in lcx_pets:
+            n = p.get("name")
+            if n and n not in by_name:
+                pets_raw.append(p)
+                by_name[n] = p
+                added += 1
+        print(f"  LCX 补缺: +{added} 条（合并后 {len(pets_raw)} 条）")
     if lcx_skills:
-        skills_raw = {s["name"]: s for s in lcx_skills} if isinstance(lcx_skills, list) else lcx_skills
+        # LCX 技能带完整数值，覆盖 BWIKI 的同名占位条目；BWIKI 仅补充新技能名
+        lcx_map = {s["name"]: s for s in lcx_skills} if isinstance(lcx_skills, list) else lcx_skills
+        skills_raw = {**skills_raw, **lcx_map}
+
+    # 1.6 同名去重（保留种族值总和最高的一条）
+    # cross_validate 按名建字典时后出现的记录会覆盖先出现的，
+    # 形态页解析出的全 0 记录会顶掉正常记录，故先在此去重（2026-10-26 修正）
+    def _stat_sum(p):
+        return sum(_clean_int(p.get(k, 0)) for k in ("hp", "atk", "defense", "sp_atk", "sp_def", "speed"))
+    _best = {}
+    for p in pets_raw:
+        n = p.get("name")
+        if n and (n not in _best or _stat_sum(p) > _stat_sum(_best[n])):
+            _best[n] = p
+    pets_raw = list(_best.values())
+
+    # 1.7 编号稳定化：BWIKI 的 number 是发现顺序序号，与 LCX 图鉴编号不一致，
+    # 直接混用会撞号并使进化链（按 LCX 编号）错位。
+    # 规则：与 LCX 同名的精灵一律采用 LCX 编号；其余精灵保留原编号，
+    # 撞号时顺延分配未用编号，保证全局唯一（2026-10-26 修正）
+    _lcx_ids = {}
+    for p in lcx_pets:
+        n = p.get("name")
+        v = _clean_int(p.get("number", 0))
+        if n and v:
+            _lcx_ids[n] = v
+    _used = set()
+    for p in pets_raw:
+        if p.get("name") in _lcx_ids:
+            p["number"] = str(_lcx_ids[p["name"]])
+            _used.add(_lcx_ids[p["name"]])
+    _next = (max(_used) + 1) if _used else 1
+    for p in pets_raw:
+        if p.get("name") in _lcx_ids:
+            continue
+        v = _clean_int(p.get("number", 0))
+        if not v or v in _used:
+            while _next in _used:
+                _next += 1
+            p["number"] = str(_next)
+            _used.add(_next)
+            _next += 1
+        else:
+            _used.add(v)
 
     # 2. 合并外部数据
     if external_raw:

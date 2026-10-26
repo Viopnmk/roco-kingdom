@@ -3330,6 +3330,16 @@
     "effect": "自己获得技能威力+20，迅捷(通过主动更换精灵的方式入场时，使用第一个能量满足要求，并带有迅捷的技能。)。"
   },
   {
+    "name": "羽毛舞",
+    "type": "",
+    "category": "",
+    "power": 0,
+    "pp": 0,
+    "accuracy": 100,
+    "energy": 0,
+    "effect": ""
+  },
+  {
     "name": "羽翼庇护",
     "type": "翼",
     "category": "变化",
@@ -4250,6 +4260,16 @@
     "effect": "造成物伤，本技能位于1号位时威力+90，传动2。"
   },
   {
+    "name": "钧势",
+    "type": "",
+    "category": "",
+    "power": 0,
+    "pp": 0,
+    "accuracy": 100,
+    "energy": 0,
+    "effect": ""
+  },
+  {
     "name": "铁蒺藜",
     "type": "机械",
     "category": "魔法",
@@ -4698,6 +4718,16 @@
     "accuracy": 100,
     "energy": 2,
     "effect": "驱散敌方印记，每层印记回复自己10%生命。"
+  },
+  {
+    "name": "骗局",
+    "type": "",
+    "category": "",
+    "power": 0,
+    "pp": 0,
+    "accuracy": 100,
+    "energy": 0,
+    "effect": ""
   },
   {
     "name": "高温回火",
