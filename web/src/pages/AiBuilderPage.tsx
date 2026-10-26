@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { OptimizeRequest, OptimizeResult, OptimizeResponse } from "../types/api";
-import { API_BASE } from "../types/api";
+import { optimizeLocal } from "../engine/client";
 import ConstraintPanel, { Constraints, defaultConstraints } from "../components/ConstraintPanel";
 import { pets, skills } from "../data";
 import TeamCard from "../components/TeamCard";
@@ -40,25 +40,12 @@ export default function AiBuilderPage() {
     }
 
     try {
-      const resp = await fetch(`${API_BASE}/api/optimize`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(body),
-        signal: AbortSignal.timeout(120_000),
-      });
-      if (!resp.ok) {
-        const text = await resp.text();
-        throw new Error(`HTTP ${resp.status}: ${text}`);
-      }
-      const data: OptimizeResponse = await resp.json();
+      // 本地引擎：在浏览器内运行遗传算法，无需后端服务器
+      const data: OptimizeResponse = await optimizeLocal(body);
       setResults(data.teams);
       setState("done");
     } catch (e) {
-      if (e instanceof DOMException && e.name === "TimeoutError") {
-        setErrorMsg("搜索超时（2分钟），请减少代数或种群大小后重试");
-      } else {
-        setErrorMsg(e instanceof Error ? e.message : "请求失败");
-      }
+      setErrorMsg(e instanceof Error ? e.message : "搜索失败");
       setState("error");
     }
   };
@@ -67,7 +54,7 @@ export default function AiBuilderPage() {
     <div className="ai-builder">
       <h2 className="ai-title">AI 配队助手</h2>
       <p className="ai-subtitle">
-        基于多目标遗传算法（NSGA-II），搜索最优 6 精灵配队。支持约束条件过滤。
+        基于多目标遗传算法（NSGA-II），搜索最优 6 精灵配队。支持约束条件过滤。算法已内置于网页，在你的设备上本地计算，无需服务器。
       </p>
 
       <div className="ai-layout">
