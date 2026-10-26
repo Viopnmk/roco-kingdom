@@ -49,10 +49,15 @@ export default function HomePage() {
           .map((id) => petMap.get(id))
           .filter((p): p is Pet => p !== undefined);
         if (members.length === 0) return null;
-        
+
+        // 只取界面需要的字段（原先展开原始 JSON 对象，其推断类型与
+        // EvolutionChainWithPets 不兼容，导致 tsc 报错、部署构建失败，2026-10-26 修复）
         return {
-          ...chain,
+          id: chain.id,
+          name: chain.name,
           members,
+          apex_id: chain.apex_id,
+          apex_name: chain.apex_name,
           base_id: members[0].id,
           base_name: members[0].name,
         };
