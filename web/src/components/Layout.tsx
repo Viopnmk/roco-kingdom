@@ -21,6 +21,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <NavLink to="/ai-builder" className={({ isActive }) => isActive ? "active" : ""}>
             AI配队
           </NavLink>
+          <NavLink to="/battle" className={({ isActive }) => isActive ? "active" : ""}>
+            对战模拟
+          </NavLink>
+          <NavLink to="/meta" className={({ isActive }) => isActive ? "active" : ""}>
+            数据分析
+          </NavLink>
         </div>
       </nav>
       <main className="container">{children}</main>

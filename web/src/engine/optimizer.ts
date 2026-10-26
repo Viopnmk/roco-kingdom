@@ -18,6 +18,7 @@ export interface ProfileData {
   cov: Record<string, number>;
   weak: Record<string, number>;
   skills: string[];
+  bs?: string[]; // 对战模拟用招式表（optimal_skills 为空的精灵已按学习面补齐）
 }
 
 export interface TeamData {

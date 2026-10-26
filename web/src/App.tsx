@@ -7,6 +7,8 @@ import SkillPage from "./pages/SkillPage";
 import TypeChartPage from "./pages/TypeChartPage";
 import TeamBuilderPage from "./pages/TeamBuilderPage";
 import AiBuilderPage from "./pages/AiBuilderPage";
+import BattlePage from "./pages/BattlePage";
+import MetaPage from "./pages/MetaPage";
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
         <Route path="/type-chart" element={<TypeChartPage />} />
         <Route path="/team-builder" element={<TeamBuilderPage />} />
         <Route path="/ai-builder" element={<AiBuilderPage />} />
+        <Route path="/battle" element={<BattlePage />} />
+        <Route path="/meta" element={<MetaPage />} />
       </Routes>
     </Layout>
   );
